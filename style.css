@@ -123,6 +123,36 @@ h2{
     background-size: 20%;
     background-position: 100% 80%;
 }
+.contact-section-wrap{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-section h3{
+    color: #c5b0b0;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.contact-section h4{
+    color: #ab9595;
+}
+.contact-left{
+    width: 30%;
+}
+.contact-middle{
+    width: 25%;
+}
+
+.contact-right{
+    width: 25%;
+}
+
+
+
+
+
+
+
 .footer{
     width: 100%;
     height: 100px;
@@ -140,4 +170,12 @@ h2{
 }
 .footer span{
     color: salmon;
+}
+.contact-section{
+    width: 100%;
+    height: 400px;
+    background-color:#357070 ;
+}
+#span-id{
+    margin-left: 15px;
 }
