@@ -11,7 +11,7 @@ body{
     justify-content: space-around;
 }
 .intro-div{
-    width: 50%;
+    width: 60%;
     margin-right: 200px;
 }
 .img-div img{
@@ -28,10 +28,11 @@ body{
 p{
     font-size: 20px;
     font-weight: 600;
+    text-align: justify;
 }
 .section-button{
     width: 150px;
-    height: 45px;
+    height: 50px;
     background-color: salmon;
     border: none;
     border-radius: 5px;
@@ -85,7 +86,6 @@ h4{
 }
 .develop-img{
     width: 40%;
-    margin-left: 20px;
 }
 .develop-img img{
     width: 60%;
@@ -109,7 +109,6 @@ h2{
 .global-img{
     width:40%;
 }
-
 .global-img img{
    width: 80%;
    margin-left: 40px 50px;
@@ -123,40 +122,57 @@ h2{
     background-size: 20%;
     background-position: 100% 80%;
 }
+.contact-section{
+    width: 100%;
+    height: 390px;
+    background-color:#1c1c35;
+}
 .contact-section-wrap{
     display: flex;
     justify-content: space-around;
 }
 .contact-section h3{
-    color: #c5b0b0;
+    color: #ffffff;
     text-align: center;
     padding-top: 50px;
     font-size: 40px;
 }
 .contact-section h4{
-    color: #ab9595;
+    color: #ffffff;
+}
+.contact-section p{
+    color:white;
+    font-weight: normal;
+    font-size: 16px;
 }
 .contact-left{
     width: 30%;
+    margin-left: 130px;
 }
 .contact-middle{
-    width: 25%;
+    width: 15%;
 }
-
 .contact-right{
     width: 25%;
 }
+.textarea{
+    background-color: #2a1340;
+    color: white;
+}
+.contract-button{
+    width: 245px;
+    height: 45px;
+    background-color: #572785;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
 
-
-
-
-
-
-
+}
 .footer{
     width: 100%;
     height: 100px;
-    background-color: #1c1c35;
+    background-color: #160909;
     text-align: center;
     padding: 25px 0 50px;
 }
@@ -167,14 +183,10 @@ h2{
 .footer p{
     font-weight: 100;
     color: white;
+    text-align: center;
 }
 .footer span{
     color: salmon;
-}
-.contact-section{
-    width: 100%;
-    height: 400px;
-    background-color:#357070 ;
 }
 #span-id{
     margin-left: 15px;
